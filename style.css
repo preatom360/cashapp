@@ -1,0 +1,91 @@
+/* Reset and General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #00d54b; /* Cash App green */
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation Styles */
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #e0ffe8;
+  }
+  
+  /* Main Content Styles */
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .content {
+    max-width: 500px;
+  }
+  
+  .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Claim Button Styles */
+  .claim-button {
+    background-color: white;
+    color: #00d54b;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .claim-button:hover {
+    background-color: #e0ffe8;
+    color: #009c36;
+  }
+  
+  /* Phone Mockup */
+  .phone-mockup img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
